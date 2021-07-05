@@ -1,0 +1,40 @@
+body{
+    background-color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    
+}
+.text-highlight{
+    color:#EF304C;
+}
+h1{
+    font-size: 38px;
+    color:#000000;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.half-width img{
+    width: 100%;
+    height: 400px;
+
+}
+#first-para{
+    font-size: 17px;
+    color:rgb(51, 51, 51);
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 10px 40px;
+     border-radius: 8px;
+    background-image: linear-gradient(#EB6076,#EA2C45);
+  color: white;
+  border-radius: 20px;
+  background-color: #EB6076;
+}
+.link-button:hover{
+    font-size: 20px;
+}
