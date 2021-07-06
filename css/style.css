@@ -90,11 +90,77 @@ div.gallery {
     box-shadow: 10px 10px 25px gray;
     border-radius: 10px;
     
+    
 
   }
   .description{
       text-align:justify;
       color:rgb(51, 51, 51);
+      padding: 10px;
       
       
+  }
+  .footer{
+      height: 180px;
+      margin-top:20%;
+      background-color:#0c0404;
+      text-align: center;
+  }
+  .text-light{
+      color: #fff;
+      text-align: center;
+  }
+  .food-h1{
+      color: #FD8F66;
+  }
+  .icons .fa{
+    position: relative;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    width: 35px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: rgba(209, 199, 199, 0.589);
+    display:inline-block;
+    font-size: 120%;
+    line-height: 40%;
+    text-align: center;
+    
+    transition: 0.6s;
+    color:black
+  }
+  .icons .fa:hover{
+  
+    transform: translate(0, -10px);
+    
+  }
+  .icons a:nth-child(1) i{
+    color:#3B5999;
+  }
+  .icons a:nth-child(2) i{
+    color:#CD201F;
+  }
+  .icons a:nth-child(3) i{
+    color:#0077B5;
+  }
+  .icons a:nth-child(4) i{
+    color:#55ACEE;
+    
+  }
+  .icons a:nth-child(1) i:hover{
+    background-color:#3B5999 ;
+    color: white
+  }
+  .icons a:nth-child(2) i:hover{
+    color:white;
+    background-color:#CD201F ;
+  }
+  .icons a:nth-child(3) i:hover{
+    color:white;
+    background-color:#0077B5 ;
+  }
+  .icons a:nth-child(4) i:hover{
+    color:white;
+    background-color:#55ACEE ;
   }
